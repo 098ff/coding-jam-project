@@ -26,7 +26,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-3.5-flash"
 
 def _create_client():
     """Create a fresh Gemini client for each request."""
